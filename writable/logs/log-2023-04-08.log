@@ -1,0 +1,389 @@
+ERROR - 2023-04-08 08:04:43 --> Tabela 'maxholder.Visitantes' não existe
+CRITICAL - 2023-04-08 08:04:43 --> Tabela 'maxholder.Visitantes' não existe
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select Visitant...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select Visitant...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select Visitant...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(75): CodeIgniter\Database\BaseConnection->query('select Visitant...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(101): App\Models\VisitantesModel->listarVisitantes()
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index()
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 08:05:39 --> Tabela 'maxholder.Visitantes' não existe
+CRITICAL - 2023-04-08 08:05:39 --> Tabela 'maxholder.Visitantes' não existe
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select Visitant...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select Visitant...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select Visitant...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(71): CodeIgniter\Database\BaseConnection->query('select Visitant...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(101): App\Models\VisitantesModel->listarVisitantes()
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index()
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 08:05:51 --> Tabela 'maxholder.Visitantes' não existe
+CRITICAL - 2023-04-08 08:05:51 --> Tabela 'maxholder.Visitantes' não existe
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select Visitant...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select Visitant...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select Visitant...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(71): CodeIgniter\Database\BaseConnection->query('select Visitant...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(101): App\Models\VisitantesModel->listarVisitantes()
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index()
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 08:06:08 --> Coluna 'Visitantes.codigo' desconhecida em 'order clause'
+CRITICAL - 2023-04-08 08:06:08 --> Coluna 'Visitantes.codigo' desconhecida em 'order clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select visitant...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select visitant...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select visitant...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(71): CodeIgniter\Database\BaseConnection->query('select visitant...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(101): App\Models\VisitantesModel->listarVisitantes()
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index()
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:01:01 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:01:01 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from L...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from L...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from L...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\LocalidadesModel.php(75): CodeIgniter\Database\BaseConnection->query('select * from L...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Localidades.php(35): App\Models\LocalidadesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Localidades->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Localidades))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:01:11 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:01:11 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:01:15 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:01:15 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 09:06:36 --> Undefined property: stdClass::$saida
+#0 C:\wamp64\www\pi4-CRUZEIRO\app\Views\layout\visitantes.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 92, Array)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pi4-CRUZEIRO\system\Common.php(1089): CodeIgniter\View\View->render('layout/Visitant...', Array, true)
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(101): view('layout/Visitant...', Array)
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('1', 'delete')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 09:06:36 --> Undefined property: stdClass::$saida
+#0 C:\wamp64\www\pi4-CRUZEIRO\app\Views\layout\visitantes.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 92, Array)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pi4-CRUZEIRO\system\Common.php(1089): CodeIgniter\View\View->render('layout/Visitant...', Array, true)
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(101): view('layout/Visitant...', Array)
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('1', 'navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:13:33 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:13:33 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 09:49:32 --> Undefined variable: codigo
+#0 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 131, Array)
+#1 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(138): App\Models\VisitantesModel->saida('2')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('2')
+#3 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#4 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-08 09:51:03 --> Undefined variable: selecionado
+#0 C:\wamp64\www\pi4-CRUZEIRO\app\Views\layout\visitantes.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pi4-CRUZEIRO\system\Common.php(1089): CodeIgniter\View\View->render('layout/Visitant...', Array, true)
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(143): view('layout/Visitant...', Array)
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('2')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:51:03 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:51:03 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(138): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:53:34 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:53:34 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(138): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:57:32 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:57:32 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(138): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:57:37 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:57:37 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:57:45 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:57:45 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 09:57:56 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 09:57:56 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 10:00:57 --> Call to undefined function echogmdate()
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\View\View.php(210): include()
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Common.php(1089): CodeIgniter\View\View->render('layout/Visitant...', Array, true)
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(101): view('layout/Visitant...', Array)
+#4 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index()
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-08 10:27:20 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:27:20 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 10:29:50 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:29:50 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 10:30:35 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:30:35 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 10:30:42 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:30:42 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 10:31:23 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:31:23 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 10:31:30 --> Undefined variable: placa
+#0 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 92, Array)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index()
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#3 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-08 10:31:37 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:31:37 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 10:31:48 --> Undefined variable: placa
+#0 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 92, Array)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index()
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#3 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-08 10:38:30 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:38:31 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(80): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(37): App\Models\VisitantesModel->listarPorCodigoObject('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->index('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 10:38:40 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:38:40 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi4-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi4-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi4-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi4-CRUZEIRO\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi4-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi4-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 10:40:51 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 10:40:51 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi1-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi1-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi1-CRUZEIRO\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi1-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 12:53:51 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 12:53:51 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi1-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi1-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi1-CRUZEIRO\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi1-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 13:43:09 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 13:43:09 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi1-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi1-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi1-CRUZEIRO\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi1-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 15:23:43 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 15:23:44 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi1-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi1-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi1-CRUZEIRO\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi1-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-08 16:11:31 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-08 16:11:31 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\pi1-CRUZEIRO\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\pi1-CRUZEIRO\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\pi1-CRUZEIRO\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\pi1-CRUZEIRO\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\pi1-CRUZEIRO\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pi1-CRUZEIRO\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
