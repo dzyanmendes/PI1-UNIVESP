@@ -3,10 +3,10 @@
       <h1>Cadastro de Visitantes</h1>
       <div class="container px-5 my-5">
         <form id="contactForm" action="<?php echo base_url().'/Visitantes'; ?>" method="post">
-          <div class="mb-3">
+          <!--<div class="mb-3">
             <label class="form-label" for="codigo">Codigo</label>
             <input class="form-control" id="codigo" name="codigo" type="text" placeholder="Codigo" data-sb-validations="" value="<?php if ($selecionado!=NULL) { echo $selecionado[0]->codigo; } else {echo '0'; } ?>" readonly style="background-color: light-gray;" />
-          </div>
+          </div>-->
           <div class="mb-3">
             <label class="form-label" for="cpf  ">CPF</label>
             <input class="form-control" id="cpf" name="cpf" type="text" placeholder="cpf" data-mask="000.000.000-00" data-sb-validations="" value="<?php if ($selecionado!=NULL) { echo $selecionado[0]->cpf; } else {echo ''; } ?>"/>
