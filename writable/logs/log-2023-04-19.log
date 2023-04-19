@@ -1,0 +1,36 @@
+ERROR - 2023-04-19 06:53:36 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-19 06:53:36 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\PI1-UNIVESP\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\PI1-UNIVESP\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\PI1-UNIVESP\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\PI1-UNIVESP\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\PI1-UNIVESP\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PI1-UNIVESP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-19 07:26:03 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-19 07:26:03 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\PI1-UNIVESP\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\PI1-UNIVESP\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\PI1-UNIVESP\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\PI1-UNIVESP\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\PI1-UNIVESP\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PI1-UNIVESP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-19 07:26:55 --> Coluna 'navbar' desconhecida em 'where clause'
+CRITICAL - 2023-04-19 07:26:55 --> Coluna 'navbar' desconhecida em 'where clause'
+#0 C:\wamp64\www\PI1-UNIVESP\system\Database\MySQLi\Connection.php(292): mysqli->query('update visitant...', 0)
+#1 C:\wamp64\www\PI1-UNIVESP\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('update visitant...')
+#2 C:\wamp64\www\PI1-UNIVESP\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('update visitant...')
+#3 C:\wamp64\www\PI1-UNIVESP\app\Models\VisitantesModel.php(132): CodeIgniter\Database\BaseConnection->query('update visitant...')
+#4 C:\wamp64\www\PI1-UNIVESP\app\Controllers\Visitantes.php(141): App\Models\VisitantesModel->saida('navbar-top-fixe...')
+#5 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(825): App\Controllers\Visitantes->saida('navbar-top-fixe...')
+#6 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\wamp64\www\PI1-UNIVESP\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PI1-UNIVESP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

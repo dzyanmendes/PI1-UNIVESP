@@ -101,7 +101,7 @@ class Visitantes extends BaseController
         $data['result'] = $model->listarVisitantes();
 
         echo view('layout/header', $data);
-        echo view('layout/Visitantes',$data);
+        echo view('layout/visitantes',$data);
         echo view('layout/footer');
     }
 
@@ -143,7 +143,7 @@ class Visitantes extends BaseController
         $data['selecionado']=NULL;
         $data['result'] = $model->listarVisitantes();
         echo view('layout/header', $data);
-        echo view('layout/Visitantes',$data);
+        echo view('layout/visitantes',$data);
         echo view('layout/footer');
 
     }
