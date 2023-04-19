@@ -5,7 +5,7 @@
         <form id="contactForm" action="<?php echo base_url().'/Visitantes'; ?>" method="post">
           <div class="mb-3">
             <label class="form-label" for="codigo">Codigo</label>
-            <input class="form-control" id="codigo" name="codigo" type="text" placeholder="Codigo" data-sb-validations="" value="<?php if ($selecionado!=NULL) { echo $selecionado[0]->codigo; } else {echo '0'; } ?>"/>
+            <input class="form-control" id="codigo" name="codigo" type="text" placeholder="Codigo" data-sb-validations="" value="<?php if ($selecionado!=NULL) { echo $selecionado[0]->codigo; } else {echo '0'; } ?>" readonly style="background-color: light-gray;" />
           </div>
           <div class="mb-3">
             <label class="form-label" for="cpf  ">CPF</label>
